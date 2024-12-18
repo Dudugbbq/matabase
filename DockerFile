@@ -1,0 +1,5 @@
+# Usar a imagem oficial do Metabase do Docker Hub
+FROM metabase/metabase
+
+# Expõe a porta 3000, que é a porta padrão do Metabase
+EXPOSE 3000
